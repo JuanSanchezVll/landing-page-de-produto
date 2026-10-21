@@ -30,9 +30,9 @@ src/
   widgets/    blocos grandes da página: cabeçalho, hero, benefícios,
               como funciona, depoimentos, oferta, faq e rodapé
   features/   ações do usuário: lista-espera e comprar-napo
-  entities/   dados mockados + card de cada um: beneficio, plano,
+  entities/   model (dados mockados) e ui (cards): beneficio, plano,
               depoimento e pergunta
-  shared/     Button, Badge, Input, Modal, ilustração SVG e formatarPreco
+  shared/     Button, Badge, Input, Modal, ilustração SVG e formatarPreco (tudo em ui)
 ```
 
 Estilização com **CSS Modules** (um `.module.css` por componente) e variáveis CSS globais em `app/index.css`.
@@ -53,9 +53,9 @@ Considerei também tratar o produto como um app de cochilo, mas a máscara dá a
 
 ### Ferramentas utilizadas
 
-- React 19 com Vite (projeto criado com `npm create vite@latest -- --template react`)
+- React 19 com Vite
 - CSS Modules
-- Oxlint (padrão do `npm create vite@latest`)
+- ESLint
 - VS Code
 - Git e GitHub
 - Google Fonts (Bricolage Grotesque e DM Sans)

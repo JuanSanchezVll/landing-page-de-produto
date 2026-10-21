@@ -1,4 +1,4 @@
-import { Button } from "../../../shared"
+import { Button } from "../../../shared/ui/Button/Button"
 import styles from "./RodapeWidget.module.css"
 
 export function RodapeWidget(props) {

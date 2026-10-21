@@ -1,10 +1,10 @@
-import { BeneficioCard } from "./beneficio/ui/BeneficioCard"
-import { beneficios } from "./beneficio/model/beneficios"
-import { PlanoCard } from "./plano/ui/PlanoCard"
-import { planos } from "./plano/model/planos"
-import { DepoimentoCard } from "./depoimento/ui/DepoimentoCard"
-import { depoimentos } from "./depoimento/model/depoimentos"
-import { perguntas } from "./pergunta/model/perguntas"
+import { BeneficioCard } from "./ui/BeneficioCard"
+import { beneficios } from "./model/beneficios"
+import { PlanoCard } from "./ui/PlanoCard"
+import { planos } from "./model/planos"
+import { DepoimentoCard } from "./ui/DepoimentoCard"
+import { depoimentos } from "./model/depoimentos"
+import { perguntas } from "./model/perguntas"
 
 export {
     BeneficioCard,

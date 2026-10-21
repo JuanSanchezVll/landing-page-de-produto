@@ -1,4 +1,4 @@
-import { Button } from "../../../shared"
+import { Button } from "../../../shared/ui/Button/Button"
 import styles from "./CabecalhoWidget.module.css"
 
 export function CabecalhoWidget(props) {

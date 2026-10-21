@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Modal } from "../../shared"
+import { Modal } from "../../shared/ui/Modal/Modal"
 import { ListaEsperaFeature, ComprarNapoFeature } from "../../features"
 import {
     CabecalhoWidget,

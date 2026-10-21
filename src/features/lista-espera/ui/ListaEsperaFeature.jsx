@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { Button, Input } from "../../../shared"
+import { Button } from "../../../shared/ui/Button/Button"
+import { Input } from "../../../shared/ui/Input/Input"
 import { validarNome, validarEmail, validarCurso } from "../model/validadores"
 import styles from "./ListaEsperaFeature.module.css"
 

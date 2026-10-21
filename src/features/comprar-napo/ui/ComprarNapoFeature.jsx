@@ -1,5 +1,8 @@
 import { useState } from "react"
-import { Button, Input, NapoIlustracao, formatarPreco } from "../../../shared"
+import { Button } from "../../../shared/ui/Button/Button"
+import { Input } from "../../../shared/ui/Input/Input"
+import { NapoIlustracao } from "../../../shared/ui/NapoIlustracao/NapoIlustracao"
+import { formatarPreco } from "../../../shared/ui/formatarPreco"
 import { calcularTotal } from "../model/calcularTotal"
 import styles from "./ComprarNapoFeature.module.css"
 

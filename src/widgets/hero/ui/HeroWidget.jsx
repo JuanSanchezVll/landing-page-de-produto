@@ -1,4 +1,6 @@
-import { Badge, Button, NapoIlustracao } from "../../../shared"
+import { Badge } from "../../../shared/ui/Badge/Badge"
+import { Button } from "../../../shared/ui/Button/Button"
+import { NapoIlustracao } from "../../../shared/ui/NapoIlustracao/NapoIlustracao"
 import styles from "./HeroWidget.module.css"
 
 export function HeroWidget(props) {

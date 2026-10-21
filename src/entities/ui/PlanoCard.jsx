@@ -1,4 +1,6 @@
-import { Badge, Button, formatarPreco } from "../../../shared"
+import { Badge } from "../../shared/ui/Badge/Badge"
+import { Button } from "../../shared/ui/Button/Button"
+import { formatarPreco } from "../../shared/ui/formatarPreco"
 import styles from "./PlanoCard.module.css"
 
 export function PlanoCard(props) {

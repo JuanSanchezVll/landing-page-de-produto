@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { NapoIlustracao } from "../../../shared"
+import { NapoIlustracao } from "../../../shared/ui/NapoIlustracao/NapoIlustracao"
 import styles from "./ComoFuncionaWidget.module.css"
 
 const passos = [
