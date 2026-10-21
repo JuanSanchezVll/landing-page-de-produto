@@ -1,0 +1,46 @@
+.cabecalho {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--cor-noite);
+    border-bottom: 2px solid var(--cor-noite-3);
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: var(--largura-max);
+    margin: 0 auto;
+    padding: 12px 20px;
+}
+
+.logo {
+    font-family: var(--fonte-titulo);
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--cor-amarelo);
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+}
+
+.menu a {
+    color: var(--cor-texto-claro-suave);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: var(--cor-amarelo);
+}
+
+@media (max-width: 860px) {
+    .menu {
+        display: none;
+    }
+}
