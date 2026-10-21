@@ -3,14 +3,15 @@ import styles from "./Modal.module.css"
 
 export function Modal(props) {
     const idTitulo = useId()
+    const onFechar = props.onFechar
 
     useEffect(() => {
         function aoTeclar(evento) {
-            if (evento.key === "Escape") props.onFechar()
+            if (evento.key === "Escape") onFechar()
         }
         document.addEventListener("keydown", aoTeclar)
         return () => document.removeEventListener("keydown", aoTeclar)
-    }, [props.onFechar])
+    }, [onFechar])
 
     return (
         <div className={styles.sobreposicao} onClick={props.onFechar}>
