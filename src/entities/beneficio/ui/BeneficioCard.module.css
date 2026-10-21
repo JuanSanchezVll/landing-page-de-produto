@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+    background: var(--cor-branco);
+    border: 3px solid var(--cor-noite);
+    border-radius: var(--raio-m);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translate(-4px, -4px) rotate(-0.5deg);
+    box-shadow: 6px 6px 0 var(--cor-rosa);
+}
+
+.icone {
+    display: grid;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    margin-bottom: 8px;
+    background: var(--cor-amarelo);
+    border: 2px solid var(--cor-noite);
+    border-radius: 14px;
+    font-size: 1.6rem;
+}
+
+.titulo {
+    font-size: 1.25rem;
+}
+
+.texto {
+    color: var(--cor-texto-suave);
+}
