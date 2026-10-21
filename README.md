@@ -53,9 +53,9 @@ Considerei também tratar o produto como um app de cochilo, mas a máscara dá a
 
 ### Ferramentas utilizadas
 
-- React 19 com Vite
+- React 19 com Vite (projeto criado com `npm create vite@latest -- --template react`)
 - CSS Modules
-- ESLint
+- Oxlint (padrão do `npm create vite@latest`)
 - VS Code
 - Git e GitHub
 - Google Fonts (Bricolage Grotesque e DM Sans)
@@ -66,7 +66,7 @@ Considerei também tratar o produto como um app de cochilo, mas a máscara dá a
 Foi utilizado o **Claude** (Claude Code) para gerar a base do projeto a partir do template de FSD e das orientações da atividade: estrutura de pastas, componentes, CSS Modules e textos mockados. Eu defini o tema, o público (estudante), o nível de complexidade esperado para o que vimos em aula e a organização dos commits em blocos.
 
 - **Mantido da sugestão da IA:** o nome Napo, a paleta roxo e amarelo, a divisão em widgets, features e entities, a ilustração em SVG com animação leve e o cupom `PROVA10`.
-- **Ajustado depois:** o botão "Ver preços" do hero estava dentro de um `<a>`, o que é HTML inválido (elemento interativo dentro de outro), então passou a rolar até a seção por `scrollIntoView`. O `Modal` do template também tinha um aviso do ESLint no `useEffect`, corrigido desestruturando `onFechar`.
+- **Ajustado depois:** o botão "Ver preços" do hero estava dentro de um `<a>`, o que é HTML inválido (elemento interativo dentro de outro), então passou a rolar até a seção por `scrollIntoView`. O `Modal` do template também tinha um alerta de dependência no `useEffect`, corrigido desestruturando `onFechar`.
 - **Não usado:** `react-router-dom`, `axios` e `json-server` do template, porque a página é única e totalmente client-side, sem API.
 - **Limite da IA:** o código gerado foi testado no navegador (formulário com validação, compra simulada, FAQ e responsivo em 375px) e nem tudo saiu certo de primeira, por isso os commits de correção.
 
