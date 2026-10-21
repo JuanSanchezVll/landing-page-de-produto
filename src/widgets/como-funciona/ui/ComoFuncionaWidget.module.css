@@ -1,0 +1,133 @@
+.secao {
+    padding: 88px 20px;
+    background: var(--cor-creme-2);
+    border-top: 3px solid var(--cor-noite);
+    border-bottom: 3px solid var(--cor-noite);
+}
+
+.conteudo {
+    max-width: var(--largura-max);
+    margin: 0 auto;
+}
+
+.titulo {
+    margin-bottom: 40px;
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.passos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    margin-bottom: 56px;
+    list-style: none;
+}
+
+.passo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.passo p {
+    color: var(--cor-texto-suave);
+}
+
+.numero {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    border: 3px solid var(--cor-noite);
+    border-radius: 50%;
+    background: var(--cor-rosa);
+    font-family: var(--fonte-titulo);
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.simulador {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+    background: var(--cor-noite);
+    border-radius: var(--raio-g);
+    box-shadow: 8px 8px 0 var(--cor-roxo);
+    color: var(--cor-texto-claro);
+}
+
+.controles {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.tituloSimulador {
+    font-size: 1.5rem;
+}
+
+.modos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.modo {
+    padding: 8px 16px;
+    border: 2px solid var(--cor-lilas);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--cor-texto-claro);
+    cursor: pointer;
+}
+
+.modo:hover {
+    background: var(--cor-noite-3);
+}
+
+.modoAtivo {
+    background: var(--cor-amarelo);
+    border-color: var(--cor-amarelo);
+    color: var(--cor-noite);
+    font-weight: 700;
+}
+
+.minutos {
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--cor-amarelo);
+}
+
+.barra {
+    height: 14px;
+    border-radius: 999px;
+    background: var(--cor-noite-3);
+    overflow: hidden;
+}
+
+.progresso {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--cor-rosa), var(--cor-amarelo));
+    transition: width 0.4s ease;
+}
+
+.dica {
+    color: var(--cor-texto-claro-suave);
+}
+
+@media (max-width: 760px) {
+    .simulador {
+        grid-template-columns: 1fr;
+        padding: 24px;
+    }
+
+    .ilustracao {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+}
