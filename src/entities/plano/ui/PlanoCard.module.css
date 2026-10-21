@@ -1,0 +1,72 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 28px 24px;
+    background: var(--cor-branco);
+    border: 3px solid var(--cor-noite);
+    border-radius: var(--raio-g);
+}
+
+.destaque {
+    background: var(--cor-noite);
+    color: var(--cor-texto-claro);
+    box-shadow: 8px 8px 0 var(--cor-amarelo);
+}
+
+.selo {
+    position: absolute;
+    top: -14px;
+    right: 20px;
+}
+
+.nome {
+    font-size: 1.5rem;
+}
+
+.descricao {
+    min-height: 3.2em;
+    font-size: 0.95rem;
+    color: var(--cor-texto-suave);
+}
+
+.destaque .descricao {
+    color: var(--cor-texto-claro-suave);
+}
+
+.preco {
+    margin-top: 8px;
+    font-family: var(--fonte-titulo);
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.parcela {
+    font-size: 0.9rem;
+    color: var(--cor-texto-suave);
+}
+
+.destaque .parcela {
+    color: var(--cor-texto-claro-suave);
+}
+
+.lista {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 16px 0;
+    list-style: none;
+}
+
+.item::before {
+    content: "✦ ";
+    color: var(--cor-roxo);
+    font-weight: 700;
+}
+
+.destaque .item::before {
+    color: var(--cor-amarelo);
+}
