@@ -1,0 +1,41 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.intro {
+    color: var(--cor-texto-suave);
+}
+
+.sucesso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.emoji {
+    font-size: 3rem;
+}
+
+.mensagem {
+    font-family: var(--fonte-titulo);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.posicao {
+    font-family: var(--fonte-titulo);
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--cor-roxo);
+}
+
+.detalhe {
+    margin-bottom: 12px;
+    color: var(--cor-texto-suave);
+    overflow-wrap: anywhere;
+}
