@@ -1,0 +1,23 @@
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.primary {
+    background: var(--cor-amarelo);
+    color: var(--cor-noite);
+}
+
+.secondary {
+    background: var(--cor-noite-3);
+    color: var(--cor-lilas);
+}
+
+.rosa {
+    background: var(--cor-rosa);
+    color: var(--cor-noite);
+}
