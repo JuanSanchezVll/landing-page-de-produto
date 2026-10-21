@@ -1,0 +1,52 @@
+.botao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: 2px solid var(--cor-noite);
+    border-radius: 999px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
+}
+
+.botao:hover:not(:disabled) {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 var(--cor-noite);
+}
+
+.botao:active:not(:disabled) {
+    transform: translate(0, 0);
+    box-shadow: none;
+}
+
+.botao:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.grande {
+    padding: 14px 28px;
+    font-size: 1.05rem;
+}
+
+.primary {
+    background: var(--cor-amarelo);
+    color: var(--cor-noite);
+}
+
+.secondary {
+    background: var(--cor-branco);
+    color: var(--cor-noite);
+}
+
+.ghost {
+    background: transparent;
+    color: var(--cor-texto-claro);
+    border-color: var(--cor-lilas);
+}
+
+.ghost:hover:not(:disabled) {
+    box-shadow: 4px 4px 0 var(--cor-lilas);
+}
