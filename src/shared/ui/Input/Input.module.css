@@ -1,0 +1,33 @@
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.rotulo {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.input {
+    padding: 12px 14px;
+    border: 2px solid var(--cor-noite);
+    border-radius: var(--raio-p);
+    background: var(--cor-branco);
+    color: var(--cor-texto);
+}
+
+.input:focus {
+    outline: 3px solid var(--cor-lilas);
+    outline-offset: 0;
+}
+
+.comErro {
+    border-color: var(--cor-erro);
+}
+
+.erro {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--cor-erro);
+}
