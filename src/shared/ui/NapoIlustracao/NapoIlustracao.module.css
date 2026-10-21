@@ -1,0 +1,28 @@
+.napo {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+.flutuando {
+    animation: flutuar 4s ease-in-out infinite;
+}
+
+.z1 {
+    animation: piscar 2.4s ease-in-out infinite;
+}
+
+.z2 {
+    animation: piscar 2.4s ease-in-out 0.8s infinite;
+}
+
+@keyframes flutuar {
+    0%, 100% { transform: translateY(0) rotate(-2deg); }
+    50% { transform: translateY(-14px) rotate(2deg); }
+}
+
+@keyframes piscar {
+    0%, 100% { opacity: 0.2; }
+    50% { opacity: 1; }
+}
