@@ -1,0 +1,26 @@
+.secao {
+    padding: 88px 20px;
+    background: var(--cor-creme);
+}
+
+.conteudo {
+    max-width: var(--largura-max);
+    margin: 0 auto;
+}
+
+.titulo {
+    max-width: 640px;
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.subtitulo {
+    margin: 12px 0 40px;
+    font-size: 1.1rem;
+    color: var(--cor-texto-suave);
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
