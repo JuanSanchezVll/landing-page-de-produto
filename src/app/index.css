@@ -1,0 +1,82 @@
+:root {
+    --cor-noite: #1a1033;
+    --cor-noite-2: #261849;
+    --cor-noite-3: #35236a;
+    --cor-roxo: #7b5cff;
+    --cor-lilas: #c4b5ff;
+    --cor-amarelo: #ffd84d;
+    --cor-amarelo-hover: #ffe27a;
+    --cor-rosa: #ff7eb6;
+    --cor-creme: #fff6e0;
+    --cor-creme-2: #ffeec2;
+    --cor-branco: #ffffff;
+
+    --cor-texto: #1a1033;
+    --cor-texto-suave: #5b4f78;
+    --cor-texto-claro: #f3eeff;
+    --cor-texto-claro-suave: #b9aedb;
+    --cor-borda: #e6dcc0;
+    --cor-erro: #e0345a;
+    --cor-sucesso: #1f9d6b;
+
+    --fonte-titulo: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --fonte-texto: "DM Sans", Arial, sans-serif;
+
+    --raio-p: 10px;
+    --raio-m: 18px;
+    --raio-g: 28px;
+    --largura-max: 1120px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto);
+    background: var(--cor-creme);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--fonte-titulo);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+:focus-visible {
+    outline: 3px solid var(--cor-roxo);
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
