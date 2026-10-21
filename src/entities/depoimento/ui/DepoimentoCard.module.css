@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 24px;
+    background: var(--cor-noite-2);
+    border: 2px solid var(--cor-noite-3);
+    border-radius: var(--raio-m);
+    color: var(--cor-texto-claro);
+}
+
+.estrelas {
+    color: var(--cor-amarelo);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.texto {
+    flex: 1;
+    font-size: 1.05rem;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--cor-rosa);
+    color: var(--cor-noite);
+    font-family: var(--fonte-titulo);
+    font-weight: 800;
+}
+
+.nome {
+    display: block;
+}
+
+.curso {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--cor-texto-claro-suave);
+}
