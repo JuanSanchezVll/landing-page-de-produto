@@ -6,7 +6,7 @@ export function RodapeWidget(props) {
         <footer className={styles.rodape}>
             <div className={styles.conteudo}>
                 <div>
-                    <p className={styles.logo}>🌙 napo</p>
+                    <p className={styles.logo}>🌙 snoozy</p>
                     <p className={styles.texto}>
                         Projeto acadêmico da disciplina de Front-end. Produto, preços e avaliações são fictícios.
                     </p>

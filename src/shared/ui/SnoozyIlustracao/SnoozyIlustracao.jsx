@@ -1,4 +1,4 @@
-import styles from "./NapoIlustracao.module.css"
+import styles from "./SnoozyIlustracao.module.css"
 
 const cores = {
     roxo: "#7b5cff",
@@ -7,15 +7,15 @@ const cores = {
     cinza: "#8d86a3"
 }
 
-export function NapoIlustracao(props) {
+export function SnoozyIlustracao(props) {
     const cor = cores[props.cor] || cores.roxo
 
     return (
         <svg
-            className={`${styles.napo} ${props.flutuando ? styles.flutuando : ""}`}
+            className={`${styles.snoozy} ${props.flutuando ? styles.flutuando : ""}`}
             viewBox="0 0 320 200"
             role="img"
-            aria-label="Máscara Napo com olhos fechados e sorrindo"
+            aria-label="Máscara Snoozy com olhos fechados e sorrindo"
         >
             <path d="M20 100 C20 60 60 40 160 40 C260 40 300 60 300 100 C300 140 260 160 160 160 C60 160 20 140 20 100 Z" fill={cor} stroke="#1a1033" strokeWidth="6" />
             <path d="M20 100 C-2 100 -2 70 12 66" fill="none" stroke="#1a1033" strokeWidth="6" strokeLinecap="round" />

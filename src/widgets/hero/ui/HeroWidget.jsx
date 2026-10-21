@@ -1,6 +1,6 @@
 import { Badge } from "../../../shared/ui/Badge/Badge"
 import { Button } from "../../../shared/ui/Button/Button"
-import { NapoIlustracao } from "../../../shared/ui/NapoIlustracao/NapoIlustracao"
+import { SnoozyIlustracao } from "../../../shared/ui/SnoozyIlustracao/SnoozyIlustracao"
 import styles from "./HeroWidget.module.css"
 
 export function HeroWidget(props) {
@@ -17,7 +17,7 @@ export function HeroWidget(props) {
                         Cochilou. <span className={styles.destaque}>Acordou.</span> Voltou pro jogo.
                     </h1>
                     <p className={styles.subtitulo}>
-                        A Napo é a máscara de cochilo de 20 minutos pra quem vive de prova, estágio e rolê.
+                        A Snoozy é a máscara de cochilo de 20 minutos pra quem vive de prova, estágio e rolê.
                         Ela apaga a luz, toca a chuva e te acorda antes de você virar zumbi.
                     </p>
                     <div className={styles.acoes}>
@@ -31,7 +31,7 @@ export function HeroWidget(props) {
                     </ul>
                 </div>
                 <div className={styles.ilustracao}>
-                    <NapoIlustracao cor="roxo" flutuando />
+                    <SnoozyIlustracao cor="roxo" flutuando />
                 </div>
             </div>
         </section>

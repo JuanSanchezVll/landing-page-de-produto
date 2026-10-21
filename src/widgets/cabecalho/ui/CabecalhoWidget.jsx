@@ -6,7 +6,7 @@ export function CabecalhoWidget(props) {
         <header className={styles.cabecalho}>
             <div className={styles.conteudo}>
                 <a href="#inicio" className={styles.logo}>
-                    <span aria-hidden="true">🌙</span> napo
+                    <span aria-hidden="true">🌙</span> snoozy
                 </a>
                 <nav className={styles.menu} aria-label="Seções da página">
                     <a href="#beneficios">Benefícios</a>

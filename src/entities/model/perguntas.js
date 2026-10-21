@@ -2,12 +2,12 @@ export const perguntas = [
     {
         id: 1,
         pergunta: "Isso funciona mesmo ou é só uma máscara cara?",
-        resposta: "O truque é o ciclo de 20 minutos: você acorda antes de entrar no sono profundo, que é o que deixa aquela cara de zumbi. A Napo cuida do tempo e da luz pra isso acontecer."
+        resposta: "O truque é o ciclo de 20 minutos: você acorda antes de entrar no sono profundo, que é o que deixa aquela cara de zumbi. A Snoozy cuida do tempo e da luz pra isso acontecer."
     },
     {
         id: 2,
         pergunta: "E se eu não conseguir dormir em 20 minutos?",
-        resposta: "Normal nos primeiros dias. A Napo conta o tempo a partir do momento em que você relaxa, e o modo chuva ajuda. Se não rolar em 30 dias, devolvemos o dinheiro."
+        resposta: "Normal nos primeiros dias. A Snoozy conta o tempo a partir do momento em que você relaxa, e o modo chuva ajuda. Se não rolar em 30 dias, devolvemos o dinheiro."
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export const perguntas = [
     },
     {
         id: 5,
-        pergunta: "Quando a Napo chega?",
+        pergunta: "Quando a Snoozy chega?",
         resposta: "Quem entra na lista de espera recebe primeiro. O envio do primeiro lote está previsto para dezembro, a tempo das férias."
     }
 ]

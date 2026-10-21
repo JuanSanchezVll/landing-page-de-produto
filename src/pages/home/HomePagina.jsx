@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Modal } from "../../shared/ui/Modal/Modal"
-import { ListaEsperaFeature, ComprarNapoFeature } from "../../features"
+import { ListaEsperaFeature, ComprarSnoozyFeature } from "../../features"
 import {
     CabecalhoWidget,
     HeroWidget,
@@ -37,7 +37,7 @@ export function HomePagina() {
 
             {planoEscolhido && (
                 <Modal titulo={planoEscolhido.nome} onFechar={() => setPlanoEscolhido(null)}>
-                    <ComprarNapoFeature plano={planoEscolhido} onConcluir={() => setPlanoEscolhido(null)} />
+                    <ComprarSnoozyFeature plano={planoEscolhido} onConcluir={() => setPlanoEscolhido(null)} />
                 </Modal>
             )}
         </>

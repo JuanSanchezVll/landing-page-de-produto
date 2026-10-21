@@ -1,9 +1,9 @@
 import { useState } from "react"
-import { NapoIlustracao } from "../../../shared/ui/NapoIlustracao/NapoIlustracao"
+import { SnoozyIlustracao } from "../../../shared/ui/SnoozyIlustracao/SnoozyIlustracao"
 import styles from "./ComoFuncionaWidget.module.css"
 
 const passos = [
-    { numero: 1, titulo: "Coloca", texto: "Ajusta a faixa e aperta o botão. A Napo apaga tudo ao redor." },
+    { numero: 1, titulo: "Coloca", texto: "Ajusta a faixa e aperta o botão. A Snoozy apaga tudo ao redor." },
     { numero: 2, titulo: "Relaxa", texto: "Chuva, ventilador ou lo-fi tocam baixinho até você apagar." },
     { numero: 3, titulo: "Acorda", texto: "Luz suave e vibração te tiram do cochilo antes do sono pesado." }
 ]
@@ -36,7 +36,7 @@ export function ComoFuncionaWidget() {
 
                 <div className={styles.simulador}>
                     <div className={styles.ilustracao}>
-                        <NapoIlustracao cor="amarelo" flutuando />
+                        <SnoozyIlustracao cor="amarelo" flutuando />
                     </div>
                     <div className={styles.controles}>
                         <h3 className={styles.tituloSimulador}>Escolhe teu modo</h3>

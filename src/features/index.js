@@ -1,7 +1,7 @@
 import { ListaEsperaFeature } from "./lista-espera/ui/ListaEsperaFeature"
-import { ComprarNapoFeature } from "./comprar-napo/ui/ComprarNapoFeature"
+import { ComprarSnoozyFeature } from "./comprar-snoozy/ui/ComprarSnoozyFeature"
 
 export {
     ListaEsperaFeature,
-    ComprarNapoFeature
+    ComprarSnoozyFeature
 }

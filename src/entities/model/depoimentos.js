@@ -11,7 +11,7 @@ export const depoimentos = [
         nome: "Pedro H.",
         curso: "Design, 6º semestre",
         nota: 5,
-        texto: "Trabalho de manhã, faculdade à noite. A Napo virou meu intervalo oficial no ônibus. Salvou meu semestre."
+        texto: "Trabalho de manhã, faculdade à noite. A Snoozy virou meu intervalo oficial no ônibus. Salvou meu semestre."
     },
     {
         id: 3,
@@ -25,6 +25,6 @@ export const depoimentos = [
         nome: "Thiago S.",
         curso: "Administração, 2º semestre",
         nota: 5,
-        texto: "Dividi a Napo Dupla com meu colega de quarto. Agora a gente tem horário de soneca e tudo."
+        texto: "Dividi a Snoozy Dupla com meu colega de quarto. Agora a gente tem horário de soneca e tudo."
     }
 ]

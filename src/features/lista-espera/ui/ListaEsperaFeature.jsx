@@ -34,7 +34,7 @@ export function ListaEsperaFeature(props) {
                 <p className={styles.mensagem}>Pronto, {nome.split(" ")[0]}! Você está na fila.</p>
                 <p className={styles.posicao}>#{posicao}</p>
                 <p className={styles.detalhe}>
-                    Avisamos em <strong>{email}</strong> quando o primeiro lote da Napo sair.
+                    Avisamos em <strong>{email}</strong> quando o primeiro lote da Snoozy sair.
                 </p>
                 <Button onClick={props.onConcluir}>Voltar pra página</Button>
             </div>
@@ -44,7 +44,7 @@ export function ListaEsperaFeature(props) {
     return (
         <form className={styles.formulario} onSubmit={aoEnviar} noValidate>
             <p className={styles.intro}>
-                Entra na lista de espera e garante a Napo no primeiro lote, com cupom de estudante.
+                Entra na lista de espera e garante a Snoozy no primeiro lote, com cupom de estudante.
             </p>
             <Input label="Nome" value={nome} placeholder="Como te chamam?" erro={erros.nome} onChange={(e) => setNome(e.target.value)} />
             <Input label="E-mail" type="email" value={email} placeholder="voce@faculdade.com" erro={erros.email} onChange={(e) => setEmail(e.target.value)} />

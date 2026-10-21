@@ -1,10 +1,10 @@
 import { useState } from "react"
 import { Button } from "../../../shared/ui/Button/Button"
 import { Input } from "../../../shared/ui/Input/Input"
-import { NapoIlustracao } from "../../../shared/ui/NapoIlustracao/NapoIlustracao"
+import { SnoozyIlustracao } from "../../../shared/ui/SnoozyIlustracao/SnoozyIlustracao"
 import { formatarPreco } from "../../../shared/ui/formatarPreco"
 import { calcularTotal } from "../model/calcularTotal"
-import styles from "./ComprarNapoFeature.module.css"
+import styles from "./ComprarSnoozyFeature.module.css"
 
 const cores = [
     { id: "roxo", nome: "Roxo Madrugada" },
@@ -13,7 +13,7 @@ const cores = [
     { id: "cinza", nome: "Cinza Segunda" }
 ]
 
-export function ComprarNapoFeature(props) {
+export function ComprarSnoozyFeature(props) {
     const [cor, setCor] = useState("roxo")
     const [cupom, setCupom] = useState("")
     const [pedido, setPedido] = useState(null)
@@ -21,14 +21,14 @@ export function ComprarNapoFeature(props) {
     const resumo = calcularTotal(props.plano.preco, cupom)
 
     function aoConfirmar() {
-        const codigo = "NAPO-" + String(Math.floor(Math.random() * 9000) + 1000)
+        const codigo = "SNOOZY-" + String(Math.floor(Math.random() * 9000) + 1000)
         setPedido(codigo)
     }
 
     if (pedido) {
         return (
             <div className={styles.sucesso}>
-                <NapoIlustracao cor={cor} flutuando />
+                <SnoozyIlustracao cor={cor} flutuando />
                 <p className={styles.mensagem}>Pedido confirmado! (de mentira 😉)</p>
                 <p className={styles.codigo}>{pedido}</p>
                 <p className={styles.detalhe}>
@@ -42,7 +42,7 @@ export function ComprarNapoFeature(props) {
     return (
         <div className={styles.compra}>
             <div className={styles.previa}>
-                <NapoIlustracao cor={cor} />
+                <SnoozyIlustracao cor={cor} />
             </div>
 
             <fieldset className={styles.cores}>
